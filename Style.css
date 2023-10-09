@@ -1,13 +1,24 @@
+/* start body style */
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+/* start header style */
 header {
     background-color: rgb(255, 255, 255);
-}
 }
 
 p,
 h1,
 h6,
 a {
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
 }
 
 ul li {
