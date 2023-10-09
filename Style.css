@@ -1,17 +1,5 @@
-body {
-    margin: 0;
-}
-
-.container {
-    width: 1200px;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-}
-
-/* start header style */
 header {
     background-color: rgb(255, 255, 255);
-
 }
 }
 
@@ -20,7 +8,6 @@ h1,
 h6,
 a {
     font-family: "Poppins", sans-serif;
-
 }
 
 ul li {
@@ -45,13 +32,8 @@ nav {
     display: flex;
     justify-content: space-around;
     padding-left: 100px;
-}
 
-ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 12px;
+
 }
 
 .logo {
