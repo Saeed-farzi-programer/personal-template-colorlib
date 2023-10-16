@@ -1,7 +1,7 @@
-/* General Styles */
+/* start - Action */
 body {
     margin: 0;
-    background: #f1f1f1;
+    background: #8a7878;
     /* Delete Flag */
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 
-/* START HEADER Styles */
+/* Header style */
 header {
     background-color: white;
 }
@@ -72,9 +72,9 @@ header nav>ul>li>a:visited {
     color: #8490ff;
 }
 
-/* START Main Menu - Level 2 */
+/* main menuu */
 header nav>ul>li>ul {
-    background-color: rgb(255, 184, 184);
+    background-color: rgb(255, 251, 251);
 
     position: absolute;
     top: calc(100% + 23px);
@@ -82,12 +82,13 @@ header nav>ul>li>ul {
 
     width: max-content;
     padding: 10px;
+    border-radius: 30px;
 }
 
 header nav>ul>li>ul>li {
     display: flex;
+    
 }
-
 header nav>ul>li>ul>li>a {
     padding: 10px 7px ;
     padding-right: 100px
