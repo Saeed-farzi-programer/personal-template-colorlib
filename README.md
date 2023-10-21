@@ -19,8 +19,8 @@
 <div align="center">
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://instagram.com/https://www.instagram.com/gm_shayann" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/gm_shayann" height="30" width="40" /></a>
-<a href="https://discord.gg/https://discord.com/shayan.0916" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.com/shayan.0916" height="30" width="40" /></a>
+<a href="https://instagram.com/https://www.instagram.com/gm_shayann" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/saeed-developer.13" height="30" width="40" /></a>
+<a href="https://discord.gg/https://discord.com/shayan.0916" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.com/saeed farzi" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
