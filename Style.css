@@ -85,18 +85,15 @@ header nav>ul>li>ul {
 header nav>ul>li>ul>li {
     margin: 7px 0px;
 }
-
 header nav>ul>li>ul>li>a {
     padding: 10px 100px 10px 8px;
 
 }
-
 header nav>ul>li:hover ul {
     display: block;
     /* transition: hover 3s;
     transition-delay: 3s; */
 }
-
 /*************** section-1 **** This is me *********************/
 .This-is-me-fa {
     width: 100%;
