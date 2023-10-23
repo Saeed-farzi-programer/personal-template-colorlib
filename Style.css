@@ -103,7 +103,7 @@ header nav>ul>li:hover ul {
 /*************** section-1 **** This is me *********************/
 .This-is-me-fa {
     width: 100%;
-    background-color: #f5f7fc;
+    background-color: #f3f6fd;
     padding-top: 70px;
 }
 
@@ -116,7 +116,7 @@ header nav>ul>li:hover ul {
 .this-is-left {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 56%;
     padding-right: 25px;
     padding-top: 80px;
 }
