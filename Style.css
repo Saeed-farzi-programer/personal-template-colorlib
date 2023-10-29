@@ -341,6 +341,58 @@ header nav>ul>li:hover ul {
     }
 }
 
+/************************** latest post *********************/
+.latest-post-fa {
+    width: 100%;
+    height: 600px;
+    /* background-color: #8e8e8e; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.latest-post-s {
+    width: 1000px;
+    height: inherit;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-post-head {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.latest-post-head>div {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.below-head {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding: 0 35px;
+    gap: 30px;
+}
+
+.below-head>div>img {
+    width: 290px;
+}
+
+.below-head>div>div>img {
+    width: 25px;
+}
+
 /*************************** slideshow **********************/
 .slideshow2 {
     width: 100%;
@@ -348,7 +400,7 @@ header nav>ul>li:hover ul {
     background-color: #8490ff;
     margin: 0;
     padding: 0;
-    margin-top: 400px;
+    margin-top: 100px;
 
 
 }
