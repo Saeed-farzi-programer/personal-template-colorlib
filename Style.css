@@ -64,6 +64,7 @@ header nav>ul>li>a {
 
 header nav>ul>li a:hover {
     color: blueviolet;
+
 }
 
 header nav>ul>li a:visited {
@@ -80,12 +81,16 @@ header nav>ul>li>ul {
 
     width: max-content;
     padding: 10px;
-    display: none;
+    visibility: hidden;
+    /* display: none; */
+    transition: all;
+    transition-delay: .5s;
 
 }
 
 header nav>ul>li>ul>li {
     margin: 7px 0px;
+
 }
 
 header nav>ul>li>ul>li>a {
@@ -96,9 +101,9 @@ header nav>ul>li>ul>li>a {
 }
 
 header nav>ul>li:hover ul {
-    display: block;
-    /* transition: hover 3s;
-    transition-delay: 3s; */
+    /* display: block; */
+    visibility: visible;
+
 }
 
 /*************** section-1 **** This is me *********************/
@@ -212,11 +217,12 @@ header nav>ul>li:hover ul {
 /******************************** section-3 **** my offered services   ************************************/
 .my-offer-fa {
     width: 100%;
-    height: 700px;
+    height: 800px;
     /* background-color: #a4a9ac; */
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 120px 0px ;
+    padding: 120px 0px;
 }
 
 .my-offer {
@@ -224,47 +230,44 @@ header nav>ul>li:hover ul {
     height: inherit;
     /* background-color: aqua; */
     margin: 0 auto;
+
 }
-/* .wrap1{background-color: #8e8e8e;
-    
-   
-    flex-direction: row;
-   
-    justify-content: space-around;
-    
-    width: 90%;
-    height: inherit;
-    margin: 0 auto;
-} */
-/* ********************************************************* */
+
+/* ********************** header ************************** */
 .h-my-offer-fa {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: rgb(123, 255, 7); */
 }
 
 .h-my-offer {
+    /* background-color: #62bdfc; */
     text-align: center;
     width: 580px;
-    
+
 }
-.h-my-offer>h1{font-size: 36px;}
-/* ******************************************************** */
+
+.h-my-offer>h1 {
+    font-size: 36px;
+}
+
+/* ******************** svg ********************* */
 .svg-fa {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
-   gap: 60px;
+
+    gap: 60px;
 
 }
 
 .svg-s {
     width: 300px;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     text-align: center;
     margin-top: 60px;
 }
@@ -287,7 +290,8 @@ header nav>ul>li:hover ul {
     height: 300px;
     display: flex;
     flex-direction: row;
-    
+
+
 
 }
 
@@ -307,23 +311,12 @@ header nav>ul>li:hover ul {
 
 
 }
-/* 
-.wrap {
-    background-color: aquamarine;
-    width: 90%;
-    height: 300px;
-    display: flex;
-   
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-} */
+
 
 .count>div {
     width: 200px;
     padding: 0 12px 0;
-  
+
 
 }
 
@@ -346,4 +339,104 @@ header nav>ul>li:hover ul {
         width: 420px;
 
     }
+}
+
+/*************************** slideshow **********************/
+.slideshow2 {
+    width: 100%;
+    height: 200px;
+    background-color: #8490ff;
+    margin: 0;
+    padding: 0;
+    margin-top: 400px;
+
+
+}
+
+.sliderfa {
+    width: 1000px;
+    height: inherit;
+    z-index: 2;
+    overflow: hidden;
+    /* overflow-clip-margin: content-box;
+    overflow: clip; */
+    margin: 0 auto;
+
+
+
+}
+
+.slider {
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    /* background-color:#08ff66; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* overflow: hidden; */
+    animation: 8s start infinite linear;
+
+}
+
+
+
+@keyframes start {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/************************ footer ***************************/
+.footer {
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foo {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: #62bdfc; */
+}
+
+.first {
+    width: 450px;
+}
+
+.second {
+    width: 390px;
+    margin-left: 10px;
+    /* background-color: aqua; */
+}
+
+.third {
+    width: 150px;
+    /* background-color: #62bdfc; */
+}
+
+.foo>div>h4 {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.foo>div>p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 25px;
 }
